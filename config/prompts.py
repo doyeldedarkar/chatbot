@@ -8,19 +8,19 @@ MY_IMAGE = Image.open('MY_logo.jpg') #Logo for ED
 My_IMAGE = MY_IMAGE.resize((120,90))
 Logo_image = Image.open('logo.jpg')
 
-PAGE_ICON = BOSCH_image
+PAGE_ICON = Logo_image 
 
 NUM_REQUESTS_WARNING = """You've reached the maximum number of requests.
 Your request may be incomplete.
 If you want more information, change the _"Max. number of requests"_ parameter in the settings.
 """
-TITLE = "ChatED"
+TITLE = "ChatUP"
 WELCOME_MESSAGE = "Feel free to ask me anything, I'm here to help. :heart:"
 DATA_PROTECTION_MESSAGE = """\
 Queries to our models are processed on-prem. \
-However, do not submit any confidential information for now. \
+Submit confidential information on your own risk. \
 """
-ABOUT = """Made in short time with for the employees of ED only
+ABOUT = """Tailored chatbot
 
 """
 
