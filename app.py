@@ -57,8 +57,8 @@ def main():
         menu_items=MENU_ITEMS,  # type: ignore
     )
     
-    st.title("ED's ChatBot")
-    st.sidebar.image(ED_IMAGE)
+    st.title("My ChatBot")
+    st.sidebar.image(My_IMAGE)
     st.sidebar.button("New Chat", on_click = new_chat, type='primary')
     
     expand = st.sidebar.expander(" 🛠️ Settings ", expanded=False)
