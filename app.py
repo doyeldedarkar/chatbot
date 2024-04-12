@@ -67,7 +67,7 @@ def main():
         page_icon=My_ICON,
         layout="wide")
     
-    st.sidebar.title("Welcome to my customed made chatbot :blue_heart: ")
+    st.sidebar.title("Welcome to my chatbot :blue_heart: ")
 
     
     st.sidebar.button("New Chat", on_click = new_chat, type='primary')
